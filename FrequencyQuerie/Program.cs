@@ -85,7 +85,6 @@ class Program
 
     static void Main()
     {
-        // Example queries
         List<List<int>> queries = new List<List<int>>
         {
             new List<int> {2, 3}, // No value exists
@@ -98,7 +97,6 @@ class Program
         // Call the freqQuery function with the example queries
         List<int> results = freqQuery(queries);
 
-        // Print the results
         foreach (int result in results)
         {
             Console.WriteLine(result);
